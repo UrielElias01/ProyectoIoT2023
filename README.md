@@ -1,7 +1,7 @@
 # ProjectsIoT2022
 ## Integrantes
 - Ángel de Jesús Ortega Amaro
-- Diego Emmanuel Cárdenas Ba
+- Diego Emmanuel Cárdenas 
 - Fernando Mendoza
 - Ángel Uriel Elías Velázquez
 ## Objetivo general
