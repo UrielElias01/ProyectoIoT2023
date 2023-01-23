@@ -16,8 +16,8 @@ Parrafo con el objetivo general
 ## Tabla de Software utilizado
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
-| | | | |
-| | | | |
+| 01 | Mosquitto | | |
+| 02 | Arduino IDE | | |
 | | | | |
 ## Tabla con el hardware utilizado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
