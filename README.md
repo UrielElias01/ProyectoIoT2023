@@ -5,7 +5,7 @@
 - Fernando Mendoza García
 - Ángel Uriel Elías Velázquez
 ## Objetivo general
-Parrafo con el objetivo general
+- Nuestro proyecto como objetivo general tiene el optimizar el uso de agua a través de un mecanismo de riego automatizado, ahorrando tiempo y dinero al consumidor.
 ### Objetivos específicos
 - Elemento 1 de la lista de objetivos específicos
 - Elemento 2 de la lista de objetivos específicos
