@@ -20,10 +20,8 @@
 ## Tabla con el hardware utilizado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
 |----|------------|-------------|--------|----------|-------------|
-|01|ESP32|Es una solución de Wi-Fi/Bluetooth todo en uno, integrada y certificada que proporciona no solo la radio inalámbrica, sino también un procesador integrado con interfaces para conectarse con varios periféricos. |![image](https://user-images.githubusercontent.com/99992207/217118104-4f9fd4e0-7e79-4c2f-8dbb-960b21e69e99.png)
- |1 |$150 |
-|02 |Raspberry Pi 4|Es una computadora de bajo costo y con un tamaño compacto, del porte de una tarjeta de crédito, puede ser conectada a un monitor de computador o un TV, y usarse con un mouse y teclado estándar. |![image](https://user-images.githubusercontent.com/99992207/217118234-a10f00f6-86c7-47f9-8340-2f267241881d.png)
- |1 |$3,200 |
+|01|ESP32|Es una solución de Wi-Fi/Bluetooth todo en uno, integrada y certificada que proporciona no solo la radio inalámbrica, sino también un procesador integrado con interfaces para conectarse con varios periféricos. |![image](https://user-images.githubusercontent.com/99992207/217118104-4f9fd4e0-7e79-4c2f-8dbb-960b21e69e99.png)|1 |$150 |
+|02 |Raspberry Pi 4|Es una computadora de bajo costo y con un tamaño compacto, del porte de una tarjeta de crédito, puede ser conectada a un monitor de computador o un TV, y usarse con un mouse y teclado estándar. |![image](https://user-images.githubusercontent.com/99992207/217118234-a10f00f6-86c7-47f9-8340-2f267241881d.png)|1 |$3,200 |
 |03 |Sensor DHT11 |Es un sensor digital de temperatura y humedad relativa de bajo costo y fácil uso. |![image](https://user-images.githubusercontent.com/99992207/217118292-7ca06b6c-9faa-48c5-94f6-4315757314da.png)|1 |$150 |
 |04 |Modulo de reles |Es un dispositivo electromagnético que funciona como un interruptor controlado por un circuito eléctrico en el que, por medio de una bobina y un electroimán, se acciona un juego de uno o varios contactos que permiten abrir o cerrar otros circuitos eléctricos independientes. |![image](https://user-images.githubusercontent.com/99992207/217118354-3ae7ba1c-b630-4fed-a769-f9bd4ce01a6c.png)|1 |$30 |
 |05 |Valvula selenoide |Es un dispositivo operado eléctricamente, y es utilizado para controlar el flujo de líquidos o gases en posición completamente abierta o completamente cerrada |![image](https://user-images.githubusercontent.com/99992207/217118402-d3605aa6-5941-4eb9-b7ed-9a51386066a4.png)|1 |$150 |
