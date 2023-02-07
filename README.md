@@ -20,7 +20,8 @@
 ## Tabla con el hardware utilizado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
 |----|------------|-------------|--------|----------|-------------|
-|01|ESP32|Es una solución de Wi-Fi/Bluetooth todo en uno, integrada y certificada que proporciona no solo la radio inalámbrica, sino también un procesador integrado con interfaces para conectarse con varios periféricos. |https://tresdprinttech.com/1695-large_default/esp32-nodemcu-btwifi-puerto-antena-externa-38-pines.jpg |1 |$150 |
+|01|ESP32|Es una solución de Wi-Fi/Bluetooth todo en uno, integrada y certificada que proporciona no solo la radio inalámbrica, sino también un procesador integrado con interfaces para conectarse con varios periféricos. |![image](https://user-images.githubusercontent.com/99992207/217117856-36303f28-9b33-4b23-9279-f62fcc455a09.png)
+ |1 |$150 |
 |02 |Raspberry Pi 4|Es una computadora de bajo costo y con un tamaño compacto, del porte de una tarjeta de crédito, puede ser conectada a un monitor de computador o un TV, y usarse con un mouse y teclado estándar. |https://agelectronica.com/FOTOS/R/RASPBERRYPI-4-MODB_-8GB.jpg |1 |$3,200 |
 |03 |Sensor DHT11 |Es un sensor digital de temperatura y humedad relativa de bajo costo y fácil uso. |https://sgemx.com/media/catalog/product/cache/55aabfd6239216e6baf91904794a6fa8/s/g/sge09830.jpg |1 |$150 |
 |04 |Modulo de reles |Es un dispositivo electromagnético que funciona como un interruptor controlado por un circuito eléctrico en el que, por medio de una bobina y un electroimán, se acciona un juego de uno o varios contactos que permiten abrir o cerrar otros circuitos eléctricos independientes. |https://www.geekfactory.mx/wp-content/uploads/2015/12/modulo-1-relevador.jpg |1 |$30 |
