@@ -20,7 +20,7 @@
 ## Tabla con el hardware utilizado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
 |----|------------|-------------|--------|----------|-------------|
-|01|ESP32|Es una solución de Wi-Fi/Bluetooth todo en uno, integrada y certificada que proporciona no solo la radio inalámbrica, sino también un procesador integrado con interfaces para conectarse con varios periféricos. |![image](https://user-images.githubusercontent.com/99992207/217117856-36303f28-9b33-4b23-9279-f62fcc455a09.png)
+|01|ESP32|Es una solución de Wi-Fi/Bluetooth todo en uno, integrada y certificada que proporciona no solo la radio inalámbrica, sino también un procesador integrado con interfaces para conectarse con varios periféricos. |![esp32](https://user-images.githubusercontent.com/99992207/217118029-7d320db8-8090-4944-b807-327b40f7a980.jpg)
  |1 |$150 |
 |02 |Raspberry Pi 4|Es una computadora de bajo costo y con un tamaño compacto, del porte de una tarjeta de crédito, puede ser conectada a un monitor de computador o un TV, y usarse con un mouse y teclado estándar. |https://agelectronica.com/FOTOS/R/RASPBERRYPI-4-MODB_-8GB.jpg |1 |$3,200 |
 |03 |Sensor DHT11 |Es un sensor digital de temperatura y humedad relativa de bajo costo y fácil uso. |https://sgemx.com/media/catalog/product/cache/55aabfd6239216e6baf91904794a6fa8/s/g/sge09830.jpg |1 |$150 |
