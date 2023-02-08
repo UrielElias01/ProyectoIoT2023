@@ -45,4 +45,5 @@
 
 
 ## Prototipo en dibujo
-- Coloca la fotografia de tu prototipo dibujado a lapiz
+- ![IMG_20230208_130250](https://user-images.githubusercontent.com/107594036/217627468-9a8f2edd-f9d5-49c7-8476-7f0a284df8d3.jpg)
+
