@@ -39,9 +39,9 @@
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
 |----|---------------------|-----------|------------|---------------|-------------|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| 1| como usuario quiero poder activar el sistema de riego desde una cierta distancia | | 2 semanas | conexión mqtt y un dispositivo| |
+| 2| com usuario, quiero poder visualizar | | | | |
+| 3| | | | | |
 
 ##Prototipo en dibujo
 ## Prototipo en dibujo
