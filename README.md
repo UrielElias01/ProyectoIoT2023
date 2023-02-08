@@ -31,7 +31,7 @@
 ##Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 - como usuario quiero poder activar el sistema de riego desde una cierta distancia
-- com usuario, quiero poder visualizar en una pantalla la humedad del suelo.
+- como usuario, quiero poder visualizar en una pantalla la humedad del suelo.
 - Elemento de la lista de épicas del proyecto
 - Elemento de la lista de épicas del proyecto
 
