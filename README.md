@@ -29,10 +29,10 @@
 |07 |Cables |Para incorporar la conexión desde las placas a los sensores. |![image](https://user-images.githubusercontent.com/99992207/217118498-fc44878e-69ca-4183-a520-b438c73fea94.png) |No definido |No definido |
 
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
-- "No descuides tus cultivos, con nuestro sistema de riego automatizado es más facil"
+- Como usuario, poder ahorrar tiempo y dinero
 - Como usuario, quiero poder guardar los datos de la humedad, dentro de una base datos
 - Como usuario, quiero poder activar el sistema de riego desde una cierta distancia.
-- Elemento de la lista de épicas del proyecto
+- Seria mas facil el poder controlar mi sistema de riego y humedad desde mi casa.
 
 ##Tabla de historias de usuario
 ## Tabla de historias de usuario
