@@ -32,16 +32,16 @@
 - Como usuario, poder ahorrar tiempo y dinero
 - Como usuario, quiero poder guardar los datos de la humedad, dentro de una base datos
 - Como usuario, quiero poder activar el sistema de riego desde una cierta distancia.
-- Yo como usuario quiero poder controlar mi sistema de riego y humedad desde mi casa.
+- Yo como usuario quiero poder controlar el flujo y tiempos de mi sistema de riego y humedad desde mi casa.
 
 ##Tabla de historias de usuario
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
 |----|---------------------|-----------|------------|---------------|-------------|
-|01 | Funcionamiento correcto del sensor DHT11.| Alta|1 semana | Con el codigo en funcionamiento|Integrantes del equipo |
+|01 | Control a distancia del encendido y apagado del sistema de riego.| Alta|1 semana | Con el codigo en funcionamiento|Integrantes del equipo |
 |02 | Funcionamiento de la valvula selenoide dependiendo de la humedad del suelo.|Alta | 4 semanas| Con la compilación del código|Integrantes del quipo |
 |03 | La ESP32 debe de recopilar los datos tomados del sensor DHT11| Alta| 4-5 semanas| El alojamiento en la nube| Integrantes del equipo|
-|04 | Encender y apagar el sistema de riego de forma automática| Alta| 4-6 semanas|Con la compilación del código | Integrantes del equipo|
+|04 | Encender y apagar el sistema de riego de forma automática y manual| Alta| 4-6 semanas|Con la compilación del código | Integrantes del equipo|
 
 
 ## Prototipo en dibujo
