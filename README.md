@@ -28,10 +28,9 @@
 |06 |Memoria SD 32GB |Es una tarjeta de memoria flash extraíble utilizada para almacenar información digital, como programas y archivos. |![image](https://user-images.githubusercontent.com/99992207/217118451-4bbf6593-4918-4f3a-94ff-8c8dd54a541e.png) |1 |$120 |
 |07 |Cables |Para incorporar la conexión desde las placas a los sensores. |![image](https://user-images.githubusercontent.com/99992207/217118498-fc44878e-69ca-4183-a520-b438c73fea94.png) |No definido |No definido |
 
-##Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
-- como usuario quiero poder activar el sistema de riego desde una cierta distancia
-- como usuario, quiero poder visualizar la humedad del suelo.
+- "No descuides tus cultivos, con nuestro sistema de riego automatizado es más facil"
+- Elemento de la lista de épicas del proyecto
 - Elemento de la lista de épicas del proyecto
 - Elemento de la lista de épicas del proyecto
 
@@ -39,10 +38,11 @@
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
 |----|---------------------|-----------|------------|---------------|-------------|
-| 1| como usuario quiero poder activar el sistema de riego desde una cierta distancia | | 2 semanas | conexión mqtt y un dispositivo| |
-| 2| como usuario, quiero poder visualizar la humedad del suelo| Media| 2 semanas| conexión a la base de datos desde un dispositivo| |
-| 3| | | | | |
+|01 | Funcionamiento correcto del sensor DHT11.| Alta|1 semana | Con el codigo en funcionamiento|Integrantes del equipo |
+|02 | Funcionamiento de la valvula selenoide dependiendo de la humedad del suelo.|Alta | 4 semanas| Con la compilación del código|Integrantes del quipo |
+|03 | La ESP32 debe de recopilar los datos tomados del sensor DHT11| Alta| 4-5 semanas| El alojamiento en la nube| Integrantes del equipo|
+|03 | Encender y apagar el sistema de riego de forma automática| Alta| 4-6 semanas|Con la compilación del código | Integrantes del equipo|
 
-##Prototipo en dibujo
+
 ## Prototipo en dibujo
 - Coloca la fotografia de tu prototipo dibujado a lapiz
