@@ -30,8 +30,8 @@
 
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 - "No descuides tus cultivos, con nuestro sistema de riego automatizado es más facil"
-- Elemento de la lista de épicas del proyecto
-- Elemento de la lista de épicas del proyecto
+- Como usuario, quiero poder guardar los datos de la humedad, dentro de una base datos
+- Como usuario, quiero poder activar el sistema de riego desde una cierta distancia.
 - Elemento de la lista de épicas del proyecto
 
 ##Tabla de historias de usuario
