@@ -41,7 +41,7 @@
 |01 | Funcionamiento correcto del sensor DHT11.| Alta|1 semana | Con el codigo en funcionamiento|Integrantes del equipo |
 |02 | Funcionamiento de la valvula selenoide dependiendo de la humedad del suelo.|Alta | 4 semanas| Con la compilación del código|Integrantes del quipo |
 |03 | La ESP32 debe de recopilar los datos tomados del sensor DHT11| Alta| 4-5 semanas| El alojamiento en la nube| Integrantes del equipo|
-|03 | Encender y apagar el sistema de riego de forma automática| Alta| 4-6 semanas|Con la compilación del código | Integrantes del equipo|
+|04 | Encender y apagar el sistema de riego de forma automática| Alta| 4-6 semanas|Con la compilación del código | Integrantes del equipo|
 
 
 ## Prototipo en dibujo
