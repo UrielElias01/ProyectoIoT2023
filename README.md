@@ -32,7 +32,7 @@
 - Como usuario, poder ahorrar tiempo y dinero
 - Como usuario, quiero poder guardar los datos de la humedad, dentro de una base datos
 - Como usuario, quiero poder activar el sistema de riego desde una cierta distancia.
-- Seria mas facil el poder controlar mi sistema de riego y humedad desde mi casa.
+- Yo como usuario quiero poder controlar mi sistema de riego y humedad desde mi casa.
 
 ##Tabla de historias de usuario
 ## Tabla de historias de usuario
