@@ -31,7 +31,7 @@
 ##Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 - como usuario quiero poder activar el sistema de riego desde una cierta distancia
-- como usuario, quiero poder visualizar en una pantalla la humedad del suelo.
+- como usuario, quiero poder visualizar la humedad del suelo.
 - Elemento de la lista de épicas del proyecto
 - Elemento de la lista de épicas del proyecto
 
@@ -40,7 +40,7 @@
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
 |----|---------------------|-----------|------------|---------------|-------------|
 | 1| como usuario quiero poder activar el sistema de riego desde una cierta distancia | | 2 semanas | conexión mqtt y un dispositivo| |
-| 2| com usuario, quiero poder visualizar | | | | |
+| 2| com usuario, quiero poder visualizar la humedad del suelo| Media| 2 semanas| conexión a la base de datos desde un dispositivo| |
 | 3| | | | | |
 
 ##Prototipo en dibujo
