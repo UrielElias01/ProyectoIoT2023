@@ -27,6 +27,9 @@
 |05 |Valvula selenoide |Es un dispositivo operado eléctricamente, y es utilizado para controlar el flujo de líquidos o gases en posición completamente abierta o completamente cerrada |![image](https://user-images.githubusercontent.com/99992207/217118402-d3605aa6-5941-4eb9-b7ed-9a51386066a4.png)|1 |$150 |
 |06 |Memoria SD 32GB |Es una tarjeta de memoria flash extraíble utilizada para almacenar información digital, como programas y archivos. |![image](https://user-images.githubusercontent.com/99992207/217118451-4bbf6593-4918-4f3a-94ff-8c8dd54a541e.png) |1 |$120 |
 |07 |Cables |Para incorporar la conexión desde las placas a los sensores. |![image](https://user-images.githubusercontent.com/99992207/217118498-fc44878e-69ca-4183-a520-b438c73fea94.png) |No definido |No definido |
+|08|Sensor de Obstáculos|Dispositivo que permite detectar la presencia de objetos u obstaculos||||
+|09|Sensor de Húmedad FC-28| Dispositivo que permite medir el nivel de la humadad en la tierra||||
+|10| Fotorresistor| Sensor que nos permite medir el nivel o presencia de luz ||||
 
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 - Como usuario, poder ahorrar tiempo y dinero
