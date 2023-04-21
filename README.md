@@ -17,6 +17,9 @@
 | 01 | Arduino IDE |1.8.57.0 |Entorno de programación |
 | 02 | Firebase |10.4.0 |Alojador de nube |
 |03 |App Inventor |2.0 | Enrtoreno de programación|
+|04|Mosquitto| 5.0.3.1.1|Freeware|
+|05|Node-Red|3.0|Freeware|
+
 ## Tabla con el hardware utilizado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
 |----|------------|-------------|--------|----------|-------------|
