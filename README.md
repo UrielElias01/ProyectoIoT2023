@@ -34,7 +34,8 @@
 | 1 | $67|
 |09|Sensor de Húmedad FC-28| Dispositivo que permite medir el nivel de la humadad en la tierra|![AR0371-H3](https://user-images.githubusercontent.com/107594036/233718034-af1c21d5-5f00-492d-8225-7b76bf80ca1f.jpg)
 | 1 | $60|
-|10| Sensor de luz Fotorresistor| Sensor que nos permite medir el nivel o presencia de luz |https://http2.mlstatic.com/D_NQ_NP_689314-MLM45684799988_042021-O.jpg| 1 | $50|
+|10| Sensor de luz Fotorresistor| Sensor que nos permite medir el nivel o presencia de luz |![D_NQ_NP_689314-MLM45684799988_042021-O](https://user-images.githubusercontent.com/107594036/233718324-c1dd2d0f-0cf1-41cf-be42-17fb5be354af.jpg)
+| 1 | $50|
 
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 - Como usuario, poder ahorrar tiempo y dinero
