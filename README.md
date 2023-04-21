@@ -30,12 +30,9 @@
 |05 |Bomba de agua |Es un dispositivo operado eléctricamente, y es utilizado para controlar el flujo de líquidos o gases en posición completamente abierta o completamente cerrada |![image](https://user-images.githubusercontent.com/99992207/217118402-d3605aa6-5941-4eb9-b7ed-9a51386066a4.png)|1 |$150 |
 |06 |Memoria SD 32GB |Es una tarjeta de memoria flash extraíble utilizada para almacenar información digital, como programas y archivos. |![image](https://user-images.githubusercontent.com/99992207/217118451-4bbf6593-4918-4f3a-94ff-8c8dd54a541e.png) |1 |$120 |
 |07 |Cables |Para incorporar la conexión desde las placas a los sensores. |![image](https://user-images.githubusercontent.com/99992207/217118498-fc44878e-69ca-4183-a520-b438c73fea94.png) |No definido |No definido |
-|08|Sensor de Obstáculos|Dispositivo que permite detectar la presencia de objetos u obstaculos| ![sensor-de-obstaculos-reflectivo-infrarrojo](https://user-images.githubusercontent.com/107594036/233718176-97d0d843-146a-4e29-bfeb-cefb15bc95c2.jpg)
-| 1 | $67|
-|09|Sensor de Húmedad FC-28| Dispositivo que permite medir el nivel de la humadad en la tierra|![AR0371-H3](https://user-images.githubusercontent.com/107594036/233718034-af1c21d5-5f00-492d-8225-7b76bf80ca1f.jpg)
-| 1 | $60|
-|10| Sensor de luz Fotorresistor| Sensor que nos permite medir el nivel o presencia de luz |![D_NQ_NP_689314-MLM45684799988_042021-O](https://user-images.githubusercontent.com/107594036/233718324-c1dd2d0f-0cf1-41cf-be42-17fb5be354af.jpg)
-| 1 | $50|
+|08|Sensor de Obstáculos|Dispositivo que permite detectar la presencia de objetos u obstaculos| ![sensor-de-obstaculos-reflectivo-infrarrojo](https://user-images.githubusercontent.com/107594036/233718176-97d0d843-146a-4e29-bfeb-cefb15bc95c2.jpg)| 1 | $67|
+|09|Sensor de Húmedad FC-28| Dispositivo que permite medir el nivel de la humadad en la tierra|![AR0371-H3](https://user-images.githubusercontent.com/107594036/233718034-af1c21d5-5f00-492d-8225-7b76bf80ca1f.jpg)| 1 | $60|
+|10| Sensor de luz Fotorresistor| Sensor que nos permite medir el nivel o presencia de luz |![D_NQ_NP_689314-MLM45684799988_042021-O](https://user-images.githubusercontent.com/107594036/233718324-c1dd2d0f-0cf1-41cf-be42-17fb5be354af.jpg)| 1 | $50|
 
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
 - Como usuario, poder ahorrar tiempo y dinero
