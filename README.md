@@ -180,5 +180,9 @@ void loop() {
 ![Imagen de WhatsApp 2023-04-24 a las 11 20 161](https://user-images.githubusercontent.com/107594036/234070627-b4044090-fa46-4042-b0b7-d7984cb4f5ad.jpg)
 ![Imagen de WhatsApp 2023-04-24 a las 11 20 16](https://user-images.githubusercontent.com/107594036/234070670-b223cabb-1578-43bf-a15d-a33e1597c1c0.jpg)
 
+## Demostración de dashboard
+![Imagen de WhatsApp 2023-04-24 a las 12 34 08](https://user-images.githubusercontent.com/107594036/234087145-07eb317a-977a-4811-ba3e-05dab7bb807e.jpg)
+![Imagen de WhatsApp 2023-04-24 a las 12 33 39](https://user-images.githubusercontent.com/107594036/234087163-fb2dd974-73fc-457d-837d-8adcb338df42.jpg)
+
 ## Video desmostrativo
 https://drive.google.com/drive/folders/1BKcCVlaZT2sLP3wm0hH1KoU-CRU4n1Gl?usp=sharing
