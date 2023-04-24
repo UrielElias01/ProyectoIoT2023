@@ -52,4 +52,133 @@
 
 ## Prototipo en dibujo
 - ![IMG_20230208_130250](https://user-images.githubusercontent.com/107594036/217627468-9a8f2edd-f9d5-49c7-8476-7f0a284df8d3.jpg)
+## Diagrama en fritzing 
+![SistemaDeRiego](https://user-images.githubusercontent.com/107594036/234069243-360f91bc-a723-4363-9afa-f3d97dbae9ba.png)
+## Código utilizado
+  // Librerías necesarias
+#include <DHT.h>
+#include <WiFi.h>
+#include <PubSubClient.h>
+  // Variables y objetos
+int sensorHumedad = 15 ;      // Sensor de humedad
+int bomba = 4;                // Bomba de agua
+int led_Bomba = 18;           // LED que se activa cuando la bomba de agua esta activa
+int led_Obs = 21;             // LED que se activa cuando el sensor de obstaculos detecta una planta con cierta altura
+#define obs_pin 25            // Sensor de obstaculos
+#define fotorresistor_pin 14  // Fotorresistor
+#define DHTTYPE DHT11         // Tipo de sensor DHT
+#define DHTPIN 5              // Pin del DHT11
+#define buzzer 19             // Pin del Buzzer
+DHT dht(DHTPIN, DHTTYPE);     // Objeto DHT
+
+  // Configuración de RED y Broker
+const char* ssid = "UE";                    // SSID de la red
+const char* password = "12345678";          // CONTRASEÑA de la red
+const char* mqtt_server = "broker.emqx.io";   // IP del broker
+
+  // Configuracion del wifi y broker
+WiFiClient wifi_client;
+PubSubClient mqtt_client(wifi_client);
+
+  // Método setup
+void setup() {
+  Serial.begin(115200);
+  dht.begin();
+  pinMode(obs_pin , INPUT);
+  pinMode(sensorHumedad, INPUT);
+  pinMode(bomba, OUTPUT);
+  pinMode(buzzer, OUTPUT);
+  pinMode(led_Bomba, OUTPUT);
+  pinMode(led_Obs, OUTPUT);
+  Serial.print("Conectando a red WiFi...");
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.print(".");
+    delay(1000);
+  }
+  Serial.println("Conexión WiFi establecida.");
+  mqtt_client.setServer(mqtt_server, 1883);
+}
+
+  // Método loop
+void loop() {
+    // Lectura de los sensores
+  float h = dht.readHumidity();             // Lectura de humedad ambiental
+  float t = dht.readTemperature();          // Lecuta de temperatura ambiental
+  int fotorresistor_value = digitalRead(fotorresistor_pin); // Lectura del sensor de luz
+  int obs = digitalRead(obs_pin);           // Lectura del sensor de obstaculos
+  int hum = digitalRead(sensorHumedad);     // Lectura de la humedad de la tierra
+  int act1 = digitalRead(bomba);
+  int act2 = digitalRead(led_Bomba);
+  int act3 = digitalRead(led_Obs);
+  int act = act1 * act2 * act3;
+
+    // Monitoreo de valores mediante el monitor serial
+  Serial.println(" ");
+  Serial.print("Humedad ambiental: ");
+  Serial.print(h);
+  Serial.println("%");
+  Serial.print("Temperatura ambiental: ");
+  Serial.print(t);
+  Serial.println("°C");
+  Serial.print("Estado de los actuadores: ");
+  Serial.println(act);
+  Serial.println(" ");
+  if (fotorresistor_value == HIGH) {
+    Serial.println("Luz baja o no detectada, posible riego en proceso");
+    if (hum == LOW) {
+      Serial.print("Lectura de humedad en la tierra baja, accionando bomba");
+      digitalWrite(bomba, HIGH);
+      digitalWrite(led_Bomba, HIGH);
+    } else {
+      Serial.println("Tierra aún humeda, esperando lectura mas baja para accionar bomba");
+    }
+  } else {
+    Serial.print("Luz detectada, esperando la noche para comenzar el riego");
+    digitalWrite(bomba, LOW);
+    digitalWrite(led_Bomba, LOW);
+  }
+  if (obs == HIGH) {
+    Serial.print("Planta alta detectada, revisar la plantación para trasplantar");
+    digitalWrite(led_Obs, HIGH);
+    digitalWrite(buzzer, HIGH);
+  } else {
+    digitalWrite(led_Obs, LOW);
+    digitalWrite(buzzer, LOW);
+  }
+
+    // Envío de datos via broker MQTT
+  if (mqtt_client.connect("ESP32Cliente")) {
+    String jsonTemp = "{\"id\":\"TempAmbiental\", \"sensor\":\"1\", \"value\":\""+String(t)+"\"}";
+    String jsonHumd = "{\"id\":\"HumdAmbiental\", \"sensor\":\"1\", \"value\":\""+String(h)+"\"}";
+    String jsonHumt = "{\"id\":\"HumedadTierra\", \"sensor\":\"2\", \"value\":\""+String(hum)+"\"}";
+    String jsonFtrs = "{\"id\":\"Photoresistor\", \"sensor\":\"3\", \"value\":\""+String(fotorresistor_value)+"\"}";
+    String jsonObst = "{\"id\":\"SensorObstacs\", \"sensor\":\"4\", \"value\":\""+String(obs)+"\"}";
+    String jsonActs = "{\"id\":\"ActuadoresSis\", \"sensor\":\"5\", \"value\":\""+String(act)+"\"}";
+    mqtt_client.publish("esp32chus/temp", jsonTemp.c_str());
+    mqtt_client.publish("esp32chus/huma", jsonHumd.c_str());
+    mqtt_client.publish("esp32chus/humt", jsonHumt.c_str());
+    mqtt_client.publish("esp32chus/lgth", jsonFtrs.c_str());
+    mqtt_client.publish("esp32chus/obst", jsonObst.c_str());
+    mqtt_client.publish("esp32chus/acts", jsonActs.c_str());
+
+      // A dashboard
+//    mqtt_client.publish("esp32chus/t", String(t).c_str());
+//    mqtt_client.publish("esp32chus/ha", String(h).c_str());
+//   mqtt_client.publish("esp32chus/ht", String(hum).c_str());
+//    mqtt_client.publish("esp32chus/l", String(fotorresistor_value).c_str());
+//    mqtt_client.publish("esp32chus/o", String(obs).c_str());
+  }  
+  delay(10000);
+}
+## Fotos demostración del proyecto
+![Imagen de WhatsApp 2023-04-24 a las 11 17 541](https://user-images.githubusercontent.com/107594036/234070491-6ee7472c-8012-4496-874f-6be6d8a3303f.jpg)
+![Imagen de WhatsApp 2023-04-24 a las 11 17 54](https://user-images.githubusercontent.com/107594036/234070516-b6d0c5e8-aff9-4db2-b496-1f2722825ea4.jpg)
+![Imagen de WhatsApp 2023-04-24 a las 11 17 53](https://user-images.githubusercontent.com/107594036/234070543-84de93f9-e024-422c-997a-bb2a4c385498.jpg)
+![Imagen de WhatsApp 2023-04-24 a las 11 20 15](https://user-images.githubusercontent.com/107594036/234070575-0d22e2cc-5626-46fe-be9f-a113f1f605ff.jpg)
+![Imagen de WhatsApp 2023-04-24 a las 11 20 162](https://user-images.githubusercontent.com/107594036/234070593-ad699d47-291d-498b-9aa8-4e74f4d2660f.jpg)
+![Imagen de WhatsApp 2023-04-24 a las 11 20 161](https://user-images.githubusercontent.com/107594036/234070627-b4044090-fa46-4042-b0b7-d7984cb4f5ad.jpg)
+![Imagen de WhatsApp 2023-04-24 a las 11 20 16](https://user-images.githubusercontent.com/107594036/234070670-b223cabb-1578-43bf-a15d-a33e1597c1c0.jpg)
+
+## Video desmostrativo
 
